@@ -24,7 +24,12 @@ struct ContentView: View {
                     Spacer()
                 }
                 Spacer()
-                Image("dealbutton")
+                Button( action:{
+                } , label: {
+                    Image("dealbutton")
+                })
+
+                
                 Spacer()
                 HStack {
                     Spacer()
